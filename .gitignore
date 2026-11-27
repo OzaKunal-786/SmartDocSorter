@@ -1,0 +1,24 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Archived / deprecated scripts
+archive/
+
+# Runtime state, logs, caches & run reports
+runtime/
+progress_status.json
+*.log
+debug_run_report.txt
+review_dashboard.html
+
+# Personal user configuration & learned institutional keywords (NEVER commit personal data)
+user_settings.json
+learning.csv

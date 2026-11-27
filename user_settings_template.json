@@ -1,0 +1,30 @@
+{
+  "input_dir": "C:\\Users\\YourName\\Documents\\Unsorted",
+  "output_dir": "C:\\Users\\YourName\\Documents\\Sorted_Archive",
+  "python_confidence_threshold": 0.78,
+  "review_confidence_threshold": 0.60,
+  "primary_person": "Primary Owner",
+  "family_config": {
+    "Primary Owner": [
+      "Primary Owner",
+      "Nickname"
+    ],
+    "Partner Name": [
+      "Partner Name",
+      "Partner Nickname"
+    ],
+    "Child Name": [
+      "Child Name"
+    ]
+  },
+  "exception_rules": [
+    {
+      "pattern": "waternet",
+      "match_scope": "filename",
+      "action": "force_route",
+      "category": "Invoices"
+    }
+  ],
+  "auto_rename": true,
+  "sorting_preset": "balanced"
+}

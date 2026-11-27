@@ -1,0 +1,29 @@
+# Smart Document Sorter - Required Python Packages
+# All packages below are installed automatically when you run start.bat
+
+# Browser Desktop Interface (NiceGUI web-based UI)
+nicegui>=2.0.0
+
+# PDF Text & Image Extraction
+pymupdf>=1.24.0
+
+# Offline OCR Engine (reads text from scanned PDFs and photos)
+rapidocr-onnxruntime>=1.3.0
+
+# Structured Data Validation (for AI responses)
+pydantic>=2.0.0
+
+# Local AI Client (connects to local Ollama server)
+ollama>=0.3.0
+
+# Image Processing & Perceptual Hashing (for photo/scan duplicate detection)
+Pillow>=10.0.0
+numpy>=1.24.0
+imagehash>=4.3.0
+
+# Microsoft Office Document Readers (.docx and .xlsx)
+python-docx>=1.1.0
+openpyxl>=3.1.0
+
+# Terminal Progress Bars (for CLI mode)
+tqdm>=4.66.0
